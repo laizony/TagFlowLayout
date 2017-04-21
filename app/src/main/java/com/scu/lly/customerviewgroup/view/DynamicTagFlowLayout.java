@@ -181,7 +181,7 @@ public class DynamicTagFlowLayout extends ViewGroup {
 				 * setPadding一定要在setBackgroundResource后面使用才有效！！！
 				 * http://stackoverflow.com/questions/18327498/setting-padding-for-textview-not-working
 				 */
-                tv.setPadding(dpToPxInt(10), dpToPxInt(8), dpToPxInt(10), dpToPxInt(8));
+                tv.setPadding(dpToPxInt(10), dpToPxInt(5), dpToPxInt(10), dpToPxInt(5));
                 tv.setTextColor(0xff212121);
 				
 				tv.setText(mTags.get(i));
